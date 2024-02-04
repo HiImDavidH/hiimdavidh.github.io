@@ -1,0 +1,66 @@
+/* index style page */
+
+
+
+body{
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+   text-align: center;
+    background-color: bisque;
+    padding: 20px;
+
+}
+
+nav{
+    width: 20%;
+    float: left;
+
+
+}
+
+main{
+    width: 70%;
+    float: left;
+    font-size: large;
+    color: purple;
+    text-indent: 25px;
+}
+main p{
+
+
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0  ;
+    padding: 0;
+    width: auto;
+    background-color: bisque;
+
+}
+
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* menu hover style */
+li a:hover{
+    background-color: #555555;
+    color: white;
+}
+
+ul {
+    border: 1px solid;
+}
+
+li{
+    text-align: center;
+    border-bottom: 1px solid #555555;
+}
