@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David's Homepage</title>
     <link rel="stylesheet" href="style.css">
-    <script src="site.js"></script>
+   
 </head>
 <body>
     <header>
@@ -20,6 +20,10 @@
 
 </nav>
 
+    <div id="Welcome"> 
+        <p></p>
+              
+    </div>
     
     <main>  I love to cook and play with my dogs during my free time. 
         I currently work at navico group as a Technology Generalist,
@@ -48,6 +52,23 @@
 </body>
 <script>
 
+const message = document.querySelector('#Welcome')
+
+const hours = new Date().getHours() // get the current hour
+
+const isMorning = hours >= 4 && hours < 12 // is it morning?
+const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
+const isEvening = hours >= 17 || hours < 4 // is it evening?
+
+if(isMorning){
+    message.textContent= 'Have a Good morning'
+}
+if(isAfternoon){
+    message.textContent= 'Have a Good Afternoon'
+}
+if(isEvening){
+    message.textContent= 'Have a Good Evening'
+}
 
 
 

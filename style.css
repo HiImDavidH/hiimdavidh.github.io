@@ -28,6 +28,7 @@ main{
     font-size: large;
     color: purple;
     text-indent: 25px;
+    padding-left: 25px;
 }
 main p{
 
